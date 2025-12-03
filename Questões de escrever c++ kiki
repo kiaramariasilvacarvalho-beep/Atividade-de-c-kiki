@@ -10,3 +10,6 @@
 3- Explica o que significa índice e qual o intervalo válido para um vetor int notas[10]?
 
 —-> O índice é a posição em que o valor foi guardado na memória. 
+—> int notas[10] —> ficaria assim, eu tenho 10 caixas para guardar 10 valores, o que acontece? 
+Eu vou guardar 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, esses números são a numeração das caixas, já que eu falei que era para reservar 10 caixas.
+
