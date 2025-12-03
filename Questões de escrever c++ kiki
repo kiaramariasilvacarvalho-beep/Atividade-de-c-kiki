@@ -1,0 +1,12 @@
+1- Vetor em c++, o que é?
+
+—> É uma estrutura de dados estática, que armazena uma sequência de valores do mesmo tipo.
+
+2- Qual a diferença entre declarar um vetor com valor fixo e inicializá-lo com valores específicos?
+
+—> Vetor com valor fixo: Ele reserva um espaço na memória, mas não coloca os valores iniciais.
+—> Inicialização dele: Além de reservar o espaço na memória, também coloca os valores em suas posições, assim o espaço não fica vazio.
+
+3- Explica o que significa índice e qual o intervalo válido para um vetor int notas[10]?
+
+—-> O índice é a posição em que o valor foi guardado na memória. 
