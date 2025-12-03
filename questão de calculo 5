@@ -1,0 +1,30 @@
+/*5- Usando o vetor do exercício anterior, calcule e exiba:
+    
+    A soma total dos números
+    A média aritmética dos valores*/
+
+#include <iostream>
+   using namespace std;
+   int main() {
+       int soma = 0;
+       float media;
+       int n[5];
+       for (int i = 0; i < 5; i++) {
+           cout << "Digite o valor do numero ";
+       cin >> n[i];}
+
+
+       cout << "Os valores digitados foram: ";
+       for (int i = 0; i < 5; i++) {
+           cout << n[i] << " ";
+           soma += n[i];
+       }
+
+
+       media = soma / 5.0;
+
+
+       cout << "total da soma: " << soma << endl;
+       cout << "total da media: " << media << endl;
+   return 0;
+   }
